@@ -1,0 +1,48 @@
+.your-order-container {
+  min-width: 335px;
+  min-height: 903px;
+  background-color: #ffff;
+}
+.your-order-heading {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+}
+.your-order-list {
+  list-style: none;
+}
+.your-order-list-child {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.your-order-box {
+  border-radius: 20px;
+  width: 295px;
+  height: 119px;
+}
+.box-one {
+  background-color: #f8766b;
+}
+.box-two {
+  background-color: #edd251;
+}
+.box-three {
+  background-color: #9dc262;
+}
+.your-order-paragraph {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
