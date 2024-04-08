@@ -1,4 +1,4 @@
-.your-order-container {
+.your-order-div {
   min-width: 335px;
   min-height: 903px;
   background-color: #ffff;
@@ -28,6 +28,9 @@
   border-radius: 20px;
   width: 295px;
   height: 119px;
+  display: flex;
+  gap: 0;
+  justify-content: center;
 }
 .box-one {
   background-color: #f8766b;
@@ -45,4 +48,10 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fff;
+}
+.your-box-head {
+  margin: 0;
+}
+.your-order-paragraph {
+  margin: 0;
 }

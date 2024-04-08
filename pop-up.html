@@ -1,82 +1,116 @@
-<link href="./css/styles.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
 
-<div class="your-order-container">
-  <div class="your-order-div">
-    <h2 class="your-order-heading">Your Order</h2>
-    <!-- w buttonie ma być svg zamiast X-->
-    <button type="button" class="your-order-x">X</button>
-    <ul class="your-order-list">
-      <li class="your-order-list-child">
-        <div class="your-order-box box-one">
-          <h3>Strawberry Basket</h3>
-          <p class="your-order-paragraph">Plant</p>
-          <input type="checkbox" class="your-order-checkbox" />
-        </div>
-      </li>
-      <li class="your-order-list-child">
-        <div class="your-order-box box-two">
-          <h3>Apple Basket</h3>
-          <p class="your-order-paragraph">Plant</p>
-          <input type="checkbox" class="your-order-checkbox" />
-        </div>
-      </li>
-      <li class="your-order-list-child">
-        <div class="your-order-box box-three">
-          <h3>Fruits Basket</h3>
-          <p class="your-order-paragraph">Plant</p>
-          <input type="checkbox" class="your-order-checkbox" />
-        </div>
-      </li>
-    </ul>
+  <div class="container">
+    <div class="your-order-div">
+      <h2 class="your-order-heading">Your Order</h2>
+      <!-- w buttonie ma być svg zamiast X-->
+      <button type="button" class="your-order-x">X</button>
+      <ul class="your-order-list">
+        <li class="your-order-list-child">
+          <div class="your-order-box box-one">
+            <div class="your-box-div">
+              <h3 class="your-box-head">Strawberry Basket</h3>
+              <p class="your-order-paragraph">Plant</p>
+            </div>
+            <img
+              src="./img/your-order-mobile/kisspng-strawberry1.png"
+              srcset="/img/your-order-mobile/kisspng-strawberry2.png"
+              alt="Strawberry basket"
+              width="88"
+              height="95"
+            />
+            <input type="checkbox" class="your-order-checkbox" />
+          </div>
+        </li>
+        <li class="your-order-list-child">
+          <div class="your-order-box box-two">
+            <div class="your-box-div">
+              <h3 class="your-box-head">Apple Basket</h3>
+              <p class="your-order-paragraph">Plant</p>
+            </div>
+            <img
+              src="./img/your-order-mobile/IMG_9757 1.png"
+              srcset="/img/your-order-mobile/IMG_9757_2.png"
+              alt="Apple basket"
+              width="106"
+              height="95"
+            />
+            <input type="checkbox" class="your-order-checkbox" />
+          </div>
+        </li>
+        <li class="your-order-list-child">
+          <div class="your-order-box box-three">
+            <div class="your-box-div">
+              <h3 class="your-box-head">Fruits Basket</h3>
+              <p class="your-order-paragraph">Plant</p>
+            </div>
+            <img
+              src="./img/your-order-mobile/unsplash_zeFy-oCUhV8.png"
+              srcset="/img/your-order-mobile/unsplash_zeFy-oCUhV82.png"
+              alt="Fruit basket"
+              width="107"
+              height="95"
+            />
+            <input type="checkbox" class="your-order-checkbox" />
+          </div>
+        </li>
+      </ul>
 
-    <form class="your-order-form">
-      <div class="your-form-div">
-        <label class="your-order-label" for="user-name">
-          <input
-            class="your-order-input"
-            placeholder="Enter full name..."
-            type="text"
-            id="user-name"
-            name="user-name"
-          />
-        </label>
-      </div>
-      <div class="your-form-div">
-        <label class="your-order-label" for="user-email">
-          <input
-            class="your-order-input"
-            placeholder="Enter email..."
-            type="email"
-            id="user-email"
-            name="user-name"
-          />
-        </label>
-      </div>
-      <div class="your-form-div">
-        <label class="your-order-label" for="user-card">
-          <input
-            class="your-order-input"
-            placeholder="Enter card.."
-            type="text"
-            id="user-card"
-            name="user-card"
-          />
-        </label>
-      </div>
-      <div class="your-form-div">
-        <label class="your-order-label" for="user-comment">
-          <textarea
-            class="your-order-textarea"
-            placeholder="Enter comments..."
-            id="user-comment"
-            name="user-comment"
-          >
-          </textarea>
-        </label>
-      </div>
-      <div class="your-order-btn-area">
-        <button type="submit" class="your-order-btn">Submit</button>
-      </div>
-    </form>
+      <form class="your-order-form">
+        <div class="your-form-div">
+          <label class="your-order-label" for="user-name">
+            <input
+              class="your-order-input"
+              placeholder="Enter full name..."
+              type="text"
+              id="user-name"
+              name="user-name"
+            />
+          </label>
+        </div>
+        <div class="your-form-div">
+          <label class="your-order-label" for="user-email">
+            <input
+              class="your-order-input"
+              placeholder="Enter email..."
+              type="email"
+              id="user-email"
+              name="user-name"
+            />
+          </label>
+        </div>
+        <div class="your-form-div">
+          <label class="your-order-label" for="user-card">
+            <input
+              class="your-order-input"
+              placeholder="Enter card.."
+              type="text"
+              id="user-card"
+              name="user-card"
+            />
+          </label>
+        </div>
+        <div class="your-form-div">
+          <label class="your-order-label" for="user-comment">
+            <textarea
+              class="your-order-textarea"
+              placeholder="Enter comments..."
+              id="user-comment"
+              name="user-comment"
+            >
+            </textarea>
+          </label>
+        </div>
+        <div class="your-order-btn-area">
+          <button type="submit" class="your-order-btn">Submit</button>
+        </div>
+      </form>
+    </div>
   </div>
-</div>
+</html>
